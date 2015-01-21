@@ -1,0 +1,8 @@
+horizon:
+  ip: server ip for apache configuration
+  servername: server name for apache configuration
+  cert_location: where is cert for apache configuration
+  CA_location: where is CA cert for apache configuration
+  key_location: where is key for apache configuration
+  compute_host: compute.host ip/hostname
+  controller: cloud.controller ip/hostname
