@@ -31,3 +31,11 @@ horizon:
   file.managed:
     - source: salt://horizon/files/local_settings.py
     - template: jinja
+
+/etc/apache2/ssl/apache.crt:
+   file.managed:
+    - source: salt://frontend-test-ssl/apache.crt
+
+/etc/apache2/ssl/apache.key:
+   file.managed:
+    - source: salt://frontend-test-ssl/apache.key

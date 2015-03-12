@@ -86,7 +86,8 @@ HORIZON_CONFIG = {
 # including on the login form.
 # HORIZON_CONFIG["disable_password_reveal"] = False
 
-LOCAL_PATH = os.path.dirname(os.path.abspath(__file__))
+#LOCAL_PATH = os.path.dirname(os.path.abspath(__file__))
+LOCAL_PATH='/tmp'
 
 # Set custom secret key:
 # You can either set it to a specific value or you can let horizon generate a
